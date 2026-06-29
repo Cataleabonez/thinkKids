@@ -1,0 +1,6 @@
+/* App-level overrides and extra keyframes */
+
+@keyframes confetti {
+  0%   { transform: translateY(0) rotate(0deg); opacity: 0.8; }
+  100% { transform: translateY(80px) rotate(360deg); opacity: 0; }
+}
